@@ -10,8 +10,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Train model
-clf = RandomForestClassifier()
+clf = RandomForestClassifier(n_estimators=100, random_state=42)
 clf.fit(X_train, y_train)
+
+#evaluate model
+accuracy = clf.score(X_test, y_test)
+print(f"Model accuracy: {accuracy * 100:.2f}%")
 
 # Save model
 joblib.dump(clf, "iris_model.pkl")
