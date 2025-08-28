@@ -21,7 +21,9 @@ The goal of this project was to practice **data loading, preprocessing, model tr
    cd iris-classifier
    
 2. Install dependencies:
+ ```bash
   pip install -r requirements.txt
 
-3. Run the script:
+4. Run the script:
+   ```bash
   python iris_classifier.py
