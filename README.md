@@ -24,6 +24,6 @@ The goal of this project was to practice **data loading, preprocessing, model tr
  ```bash
   pip install -r requirements.txt
 
-4. Run the script:
-   ```bash
+3. Run the script:
+ ```bash
   python iris_classifier.py
