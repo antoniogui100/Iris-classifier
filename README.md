@@ -19,11 +19,11 @@ The goal of this project was to practice **data loading, preprocessing, model tr
    ```bash
    git clone https://github.com/your-username/iris-classifier.git
    cd iris-classifier
-   
+
 2. Install dependencies:
- ```bash
-  pip install -r requirements.txt
+    ```bash
+     pip install -r requirements.txt
 
 3. Run the script:
- ```bash
-  python iris_classifier.py
+    ```bash
+     python iris_classifier.py
